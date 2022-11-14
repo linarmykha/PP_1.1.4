@@ -11,7 +11,7 @@ public class Util {
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/1.1.4", "root", "root");
 
         } catch (SQLException e) {
-            System.out.println("Failed to connect to database");
+            System.out.println("Failed connect to database");
         }
         return connection;
     }
